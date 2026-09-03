@@ -1,0 +1,24 @@
+*{
+    color: #0A703E;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.container{
+    width: 50vh;
+    height: 70%;
+    border: #0A703E solid 1vh;
+    background-color: rgb(240, 248, 255, 0.75);
+    border-radius: 5vh;
+    padding: 5vh;
+    margin-left:35%;
+    margin-top: 10%;
+}
+label, input[type=text], select, option{
+    font-size: small;
+}
+h2{
+    text-align: center;
+}

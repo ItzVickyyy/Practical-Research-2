@@ -1,0 +1,107 @@
+/***Topbar Menu***/
+.navigation_bar{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    height: 10.6vh;
+    width: 100%;
+    background-color: #10894C;
+    align-items: center;
+    display: flex;
+    vertical-align: middle;
+    font-size: 4vh;
+}
+.left_side{
+    margin-bottom: auto;
+    vertical-align: middle;
+    position: relative;
+    margin-bottom: 3vh;
+}
+.logo{
+    height: 11vh;
+    width: 11vh;
+    margin-top: -0.125vh;
+    margin-left: 9.8vh;
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+    border: 0;
+}
+.title{
+    font-size: 5vh;
+    letter-spacing: 0.2vh;
+    font-family:'League';
+    text-shadow: #0A703E -0.3vh -0.3vh 0;
+    margin-left: 21vh ;
+    margin-top: 2.5vh;
+    color: #ffffff;
+    width: 30vh;
+}
+.right_side{
+    width: 40%;
+    height: 10vh;
+    margin-left: 62%;
+    margin-bottom: auto;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    vertical-align: middle;
+}
+/****/
+@font-face {
+    font-family: 'League';
+    src: url('font/leaguespartan-bold.eot');
+    src: url('font/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('font/leaguespartan-bold.woff2') format('woff2'),
+         url('font/leaguespartan-bold.woff') format('woff'),
+         url('font/leaguespartan-bold.ttf') format('truetype'),
+         url('font/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-style: normal;
+}
+*{
+    font-family: 'League';
+}
+body{ 
+    margin: 0;
+    padding: 0;
+}
+/**Link Text Decoration**/
+a{
+    text-decoration: none;
+    color: #ffffff;
+}a:visited{
+    text-decoration: none;
+}
+.container{
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-self: center;
+    background-color:rgb(255, 255, 255 , 0.75);
+    width: 60vh;
+    height:max-content;
+    border: #0A703E solid 0.75vh;
+    padding: 5vh;
+    border-radius: 3vh;
+    color: #0A703E;
+}
+label, input, select{
+    margin: 0.3vh;
+}
+input[type=submit]{
+    color: #ffffff;
+    background-color: #0A703E;
+    border-radius: 4vh;
+    border: 0;
+    transition: ease 0.2s;
+}
+input[type=submit]:hover{
+    color: #0A703E;
+    background-color: #ffffff;
+    border-radius: 4vh;
+    border: 0;
+    transition: ease 0.2s;
+}
+select{
+    color: #0A703E;
+}

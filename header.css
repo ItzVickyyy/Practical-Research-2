@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'League';
+    src: url('font/leaguespartan-bold.eot');
+    src: url('font/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('font/leaguespartan-bold.woff2') format('woff2'),
+         url('font/leaguespartan-bold.woff') format('woff'),
+         url('font/leaguespartan-bold.ttf') format('truetype'),
+         url('font/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-style: normal;
+}
+*{
+    font-size: 4vh;
+    font-family: 'League';
+}
+a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+body{ 
+    margin: 0;
+    padding: 0;
+}
+/**Link Text Decoration**/
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/***Topbar Menu***/
+.wrap{
+    margin-left: 1.4vh ;
+    margin-right: 1.4vh ;
+    padding-right: 2vh;
+}
+.wrap ion-icon {
+    width: 7vh;
+    height:7vh;
+    color: white;
+}
+.menu{
+    width: 5.2vh;
+    height: 0.7vh;
+    background: white;
+    margin: 0.6vh ;
+    border-radius: 5vh ;
+    border: solid 0.1vh #000;
+    
+}
+
+/**Media Club Logo**/
+.logo{
+    height: 11vh;
+    width: 11vh;
+    margin-top: -0.125vh;
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+/**Title "Eagle Eye"**/
+.title{
+    font-size: 5vh;
+    letter-spacing: 0.2vh;
+    font-family:'League';
+    text-shadow: #0A703E -0.3vh -0.3vh 0;
+    margin-left: 10.8vh ;
+    margin-top: 2.2vh;
+    color: #ffffff;
+    width: 25vh;
+}
+
+.right_side{
+    width: 40%;
+    height: 10vh;
+    margin-left: 55%;
+    margin-bottom: auto;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    vertical-align: middle;
+
+}
+.left_side{
+    margin-bottom: auto;
+    margin-left:10vh;
+    vertical-align: middle;
+    position: relative;
+    margin-bottom: 3vh;
+}
+/**Buttons for contact us and about us**/
+.header{
+    font-weight: bold;
+    font-family:'League';
+    font-size: 3vh;
+}
+.navigation_bar{
+    position: absolute;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    height: 11.5vh;
+    width: 100%;
+    background-color: #10894C;
+    align-items: center;
+    display: flex;
+    vertical-align: middle;
+}
+
+/**button**/ 
+.btn{
+    position: relative;
+    height: 6vh;
+    background-color: transparent;
+    border: none;
+    overflow: hidden;
+    margin:1vh ;
+    padding-top:0.5vh ;
+    color: #ffffff;
+}
+.btn::after{
+    content:'' ;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background-color: #ffffff;
+    bottom: 0;
+    left: 0;
+}
+.btn-underline::after{
+    transform: translateY(20px);
+    transition: transform ease 0.3s;
+}.btn-underline:hover::after{
+    transform: translateY(0px);
+}
+/***header***/
+button{
+    background-color: transparent;
+    border: 0;
+}
+.dropdown {
+    position: absolute;
+    display: inline-flex;
+}
+  
+.dropdown-content {
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    position: absolute;
+    background-color: #10894C;
+    width: 175vh;
+    height: 5vh;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    margin-left: 5%;
+    border-radius: 0 0 9vh 9vh;
+    opacity: 1;
+    overflow:hidden;
+    padding: 0;
+    transition-delay: 3s;
+  }
+  .dropdown-content::after{
+    transform: translateY(20vh);
+    transition-delay: 3s;
+  }
+  
+  .dropdown:focus .dropdown-content {
+    display:flex; 
+    animation: taperfade 0.3s ease-in;
+
+  }
+  .dropdown:after{
+    animation: taperfadeout 0.3s ease-out; 
+  }
+  .dropdown-content:hover{
+    display:flex; 
+  }
+.dpdn-btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: auto;
+    padding-top: 1.5%;
+    width: 20vh;
+    padding-left:5vh;
+    padding-right:5vh;
+    font-size: small;
+    height: 100%;
+    position: relative;
+    margin: 0;
+    transition: all 0.3s;
+}
+.dpdn-btn:hover{
+    background-color: #ffffff;
+    color: #0A703E;
+    transition: all 0.3s;
+}
+/**/
+@keyframes taperfade {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes taperfadeout {
+    from{opacity: 1;}
+    to{opacity: 0;}
+}

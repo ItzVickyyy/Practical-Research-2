@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'League';
+    src: url('font/leaguespartan-bold.eot');
+    src: url('font/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('font/leaguespartan-bold.woff2') format('woff2'),
+         url('font/leaguespartan-bold.woff') format('woff'),
+         url('font/leaguespartan-bold.ttf') format('truetype'),
+         url('font/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-style: normal;
+}
+*{
+    font-size: 4vh;
+    font-family: 'League';
+}
+a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+body{ 
+    margin: 0;
+    padding: 0;
+}
+/**Link Text Decoration**/
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/***Topbar Menu***/
+.navigation_bar{
+    position: absolute;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    height: 11vh;
+    width: 100%;
+    background-color: #10894C;
+    align-items: center;
+    display: flex;
+    vertical-align: middle;
+    position: fixed;
+}
+.left_side{
+    margin-left: 9vh;
+    margin-bottom: auto;
+    margin-top: 2vh;
+    position: relative;
+    margin-bottom: 3vh;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    vertical-align: middle;
+}
+.right_side{
+    width: 40%;
+    height: 10vh;
+    margin-left: 60%;
+    margin-bottom: auto;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    vertical-align: middle;
+}
+/**Media Club Logo**/
+.logo{
+    height: 11vh;
+    width: 11vh;
+    margin-left: 1vh;
+    position: relative;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+/**Title "Eagle Eye"**/
+.title{
+    font-size: 5vh;
+    letter-spacing: 0.2vh;
+    font-family:'League';
+    text-shadow: #0A703E -0.3vh -0.3vh 0;
+    margin-left: -6px;
+    color: #ffffff;
+    width: 25vh;
+}
+/**button**/ 
+.btn{
+    position: relative;
+    height: 6vh;
+    background-color: transparent;
+    border: none;
+    overflow: hidden;
+    margin:1vh ;
+    padding-top:0.5vh ;
+    color: #ffffff;
+}
+.btn::after{
+    content:'' ;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background-color: #ffffff;
+    bottom: 0;
+    left: 0;
+}
+.btn-underline::after{
+    transform: translateY(20px);
+    transition: transform ease 0.3s;
+}.btn-underline:hover::after{
+    transform: translateY(0px);
+}
+

@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    font-size: 7vh;
+    color: #0A703E;
+    text-align: center;
+}
+.text{
+    color: #0A703E;
+    text-align: center;
+    font-size: 4vh;
+}
+.container{
+    justify-content: center;
+    margin: auto;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    background-color: rgb(255, 255, 255, 0.80);
+    box-shadow: 0.05vh 0.05vh 1vh 1vh #d2d2d2;
+    padding: 2vh;
+    width: 50%;
+    height: 15%;
+}
+.flex{
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+.conn{
+    box-shadow: 0.025vh 0.025vh 0.5vh 0.5vh #d2d2d2;
+    background-color: aliceblue;
+    padding: 2vh;
+    margin: 2%;
+    width: fit-content;
+    text-align: center;
+}
+.text2, a{
+    color: #0A703E;
+    text-align: center;
+}

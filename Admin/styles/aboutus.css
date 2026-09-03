@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'League';
+    src: url('font/leaguespartan-bold.eot');
+    src: url('font/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('font/leaguespartan-bold.woff2') format('woff2'),
+         url('font/leaguespartan-bold.woff') format('woff'),
+         url('font/leaguespartan-bold.ttf') format('truetype'),
+         url('font/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-style: normal;
+}
+*{
+    font-family: 'League';
+}
+body{ 
+    margin: 0;
+    padding: 0;
+}
+/**Link Text Decoration**/
+a{
+    text-decoration: none;
+    color: #ffffff;
+}a:visited{
+    text-decoration: none;
+}
+.container{
+    margin: 2.5%;
+    margin-top: 5%;
+    justify-content: center;
+    width: 90%;
+    border: solid 1vh #0A703E;
+    padding: 4vh;
+    background-color: #ffffff;
+    border-radius: 5vh;
+    color: #0A703E;
+}
+.frame{
+    height: 29vh;
+    display: block;
+    width:20vh;
+    border: double #0A703E 1.5vh;
+    text-align: center;
+    border-radius: 2vh;
+    padding: 1vh;
+    position: relative;
+    margin: auto;
+    margin-top: 2vh;
+    justify-self: center;
+    box-shadow: 0px 24px 48px 0px #0A703E33;
+}
+.frame2{
+    display: block;
+    width:17vh;
+    height: 25vh;
+    border: double #0A703E 1.5vh;
+    text-align: center;
+    border-radius: 2vh;
+    padding: 1vh;
+    position: relative;
+    margin-right:3vh;
+    margin-top: 2vh;
+    box-shadow: 0px 16px 32px 0px #0A703E33;
+}
+.center{
+    position: relative;
+    width:90%;
+    margin: auto;
+    justify-self: center;
+}
+.con1{
+    display: flex;
+    margin-top: 4vh;
+}
+.con2{
+    display: flex;
+    margin-top: 4vh;
+    padding-left: 4vh;
+    padding: 0;
+}
+.members{
+    margin: auto;
+    margin-left: 5vh;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+}
+.header{
+    color: #ffffff;
+    background-color: #0A703E;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    margin-top: 10vh;
+    height: fit-content;
+    width: fit-content;
+    font-size: 3vh;
+    border-radius: 4vh;
+
+
+}
+img{
+    border: #0A703E solid 0.75vh;
+    border-radius: 2vh;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+#title{
+    font-size:1.2vh;
+}
+#name{
+    font-size:1.65vh;
+}
+/***Topbar Menu***/
+.navigation_bar{
+    border: 0;
+    margin-top: -76px;
+    padding: 0;
+    height: 10.6vh;
+    width: 100%;
+    background-color: #10894C;
+    align-items: center;
+    display: flex;
+    vertical-align: middle;
+    font-size: 4vh;
+    position: fixed;
+
+}
+.left_side{
+    margin-bottom: auto;
+    vertical-align: middle;
+    position: relative;
+    margin-bottom: 3vh;
+}
+.logo{
+    height: 11vh;
+    width: 11vh;
+    margin-top: -0.125vh;
+    margin-left: 9.8vh;
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+    border: 0;
+}
+.title{
+    font-size: 5vh;
+    letter-spacing: 0.2vh;
+    font-family:'League';
+    text-shadow: #0A703E -0.3vh -0.3vh 0;
+    margin-left: 21vh ;
+    margin-top: 2.5vh;
+    color: #ffffff;
+    width: 30vh;
+}
+.right_side{
+    width: 40%;
+    height: 10vh;
+    margin-left: 40%;
+    margin-bottom: auto;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    vertical-align: middle;
+}
+/**Frame adjustments**/
+.color{
+    margin: auto;
+    justify-self: center;
+
+    border-radius: 5vh;
+    padding:1vh;
+    padding-top: 0.5vh;
+    padding-bottom: 0;
+    color: #ffffff;
+    font-size:xx-small;
+    background-color: #0A703E;
+    transition: 0.2s ease;
+}
+.color:hover{
+    color:  #0A703E;
+    background-color:#ffffff;
+    transition: 0.2s ease;
+}
+.buttons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: max-content;
+    margin: 0 auto;
+    
+}
+.filler{
+    height: 25vh;
+}
+.filler2{
+    height: 22vh;
+}
+/**add member button**/
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: transparent;
+    border: 0;
+    font-size: 3.5vh;
+    margin-left: 3vh;
+  }
+.dropdowncntnt{
+    display:none;
+    position: absolute;
+    background-color: #ffffff;
+    color: #0A703E;
+    width: 40vh;
+    height:max-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left;
+    padding: 1vh;
+    padding-bottom: 10vh;
+    border: #0A703E solid 0.5vh;
+    border-radius: 4vh;
+}
+.dropdown:hover .dropdowncntnt {
+    display: block;
+    animation: taperfade 0.3s ease-in;
+}
+.dropdown:after{
+    animation: taperfadeout 0.3s ease-out; 
+  }
+.dropdowncntnt:focus{
+    display: block;
+}
+input[type=text], input[type=file]{
+color: #0A703E;
+}
+input[type=submit]{
+    background-color: #0A703E;
+    color: #ffffff;
+    border: 0;
+    padding: 1vh;
+    padding-bottom: 0.5;
+    transition: all ease 0.05s;
+    border-radius: 4vh;
+}
+input[type=submit]:hover{
+    background-color: #ffffff;
+    color: #0A703E;
+    transition: all ease 0.05s;
+}
+@keyframes taperfade {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes taperfadeout {
+    from{opacity: 1;}
+    to{opacity: 0;}
+}

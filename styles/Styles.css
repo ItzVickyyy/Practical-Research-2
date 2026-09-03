@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'League';
+    src: url('font/leaguespartan-bold.eot');
+    src: url('font/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('font/leaguespartan-bold.woff2') format('woff2'),
+         url('font/leaguespartan-bold.woff') format('woff'),
+         url('font/leaguespartan-bold.ttf') format('truetype'),
+         url('font/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-style: normal;
+}
+*{
+    font-family: 'League';
+}
+
+body{ 
+    margin: 0;
+    padding: 0;
+}
+/**Link Text Decoration**/
+a{
+    text-decoration: none;
+}
+::selection{
+    background-color: #0A703E;
+    color: #ffffff;
+}

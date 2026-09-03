@@ -1,0 +1,149 @@
+.container{
+    background-color: rgb(240, 248, 255, 0.73);
+    width: 130vh;
+    border: 0.5vh solid #0A703E;
+    border-radius: 5vh;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    padding: 5vh;
+    display: flex;
+}
+.imagecon{
+    height: 30vh;
+    width: 55vh;
+    font-size: small;
+    background-color: #0A703E;
+}
+
+/*****input styles******/
+#headline{
+    font-weight: bolder;
+    width: 126vh;
+}
+#Author{
+    height: 2vh;
+    font-size: small;
+    width: 25vh;
+    font-weight:lighter;
+}
+#Category{
+    height: 2vh;
+    font-size: small;
+    width: 25vh;
+    font-weight:lighter;
+}
+#Category option{
+    height: 2vh;
+    font-size: small;
+    width: 25vh;
+    font-weight:lighter;
+}
+#pubdate{
+    height: 2vh;
+    font-size: small;
+    width: 25vh;
+    font-weight:lighter;
+}
+#Paragraph{
+    min-height: 18vh;
+    max-height: 22vh;
+    width: 128vh;
+    font-size: 2vh;
+}
+#Article_Images{
+    position: absolute;
+    font-size: small; 
+}
+#Article_Images2{
+    font-size: small;
+    margin-left: 36vh;
+}
+label{
+    color: #0A703E;
+}
+input[type=text]{
+    border-radius: 5vh;
+    padding-left: 2.5vh;
+    text-align: center;
+}
+input[type=text]::placeholder{
+   
+    transform: translateY(10%);
+}
+input[type=date]{
+    border-radius: 5vh;
+    padding-left: 2.5vh; 
+}
+textarea{
+    resize: none;
+}
+input[type=file]{
+    height: 31vh;
+    width: 62.7vh;
+    border: #0A703E solid 0.1vh;
+}
+input[type=submit]{
+    font-size: medium;
+    color: aliceblue;
+    background-color: #0A703E;
+    border: none;
+    border-radius: 1vh;
+    height: 5.50vh;
+    width: 25vh;
+    margin-left:55vh;
+    margin-top: 1vh;
+}
+input[type=submit]:hover{
+    color: #0A703E;
+    background-color: aliceblue;
+    box-shadow:white;
+    transition: all 0.25s;
+}
+
+/*****End of input styles*****/
+.addprgrph{
+    font-size: 4vh;
+    height: 2vh;
+    width:21vh;
+    background-color:#ffffff;
+    color: #ffffff;
+    overflow: hidden;
+    transition:  all 1s;
+    text-align: left;
+    padding-right: 1vh;
+    padding-left: 2vh;
+    padding-bottom: 1vh;
+    transition: ease 1s;
+    font-size: 2vh;
+}
+.addprgrph:focus{
+    min-height: 18vh;
+    max-height: 22vh;
+    width: 124vh;
+    color: #0A703E;
+    background-color: #ffffff;
+    transition: ease 1s;
+}
+.back{
+    background-color: #0A703E;
+    padding: 1vh;
+    padding-bottom: 0;
+    color: #ffffff;
+    border: #000000;
+    border-radius: 2vh;
+    width: max-content;
+    margin: 2vh;
+    margin-top: 5vh;
+    margin-bottom: 0;
+    transition: ease 0.3s;
+}
+.back:hover{
+    color: #0A703E;
+    background-color: #ffffff;
+    transition: ease 0.3s;
+}
+a:visited{
+    color: #000000;
+    text-decoration: none;
+}

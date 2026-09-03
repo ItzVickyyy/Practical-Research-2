@@ -1,0 +1,222 @@
+a{
+    text-decoration: none;
+}
+.container{
+    padding-top: auto;
+    width:auto;
+    height:100vh;
+}
+.welcome{
+    font-size:15vh;
+    text-align: center;
+    margin: auto;
+    padding-top: 11%;
+    align-self: center;
+    color: #0A703E;
+}
+.subcap{
+    font-size:4vh;
+    text-align: center;
+    margin: auto;
+    align-self: center;
+    color: #0A703E;
+}
+.search{
+    height: auto;
+    width: auto;
+    display: flex;
+    margin: auto;
+    margin-top: 5vh;
+    justify-content: center;
+}
+input#search{
+    height: 4vh;
+    width: 60vh;
+    border: solid #0A703E 1vh;
+    border-radius: 5vh 0 0 5vh;
+    border-right: 0;
+    margin: 0;
+    font-size: medium;
+    text-align: center;
+    outline: none;
+}
+input#search::selection{
+    outline: none;
+}
+
+.search input::placeholder{
+    text-align: center;
+}
+.btn2 ion-icon{
+    width: 26px;
+    height: 26px;
+    color:#0A703E;
+    background-color: transparent;
+    margin-top: -1px;
+}
+
+.btn2{
+    height: 6.2vh;
+    width: 6vh;
+    background: #fff;
+    cursor: pointer;
+    border: solid #0A703E 1vh;
+    border-radius:0 5vh 5vh 0;
+    border-left: 0;
+}
+
+.strtrdn{
+    padding-bottom: 2vh;
+    padding-top:3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    background-color: #0A703E;
+    vertical-align: middle;
+    position: absolute;
+    border-radius: 5vh;
+    margin-top: 8vh;
+    margin-left: 43%;
+    transition: ease 0.3s;
+    color: #fff;
+}
+.strtrdn:hover{
+    color: #0A703E;
+    background-color: #ffffff;
+    box-shadow: #ffffff 5px 5px 5px 5px;
+    transition: ease 0.3s;
+}
+.strtrdn a:visited{
+    color: #ffffff;
+}
+
+
+/** Table Section **/
+
+.table-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-container table {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    width: 85%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.table-container th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-container th {
+    font-size: 15;
+    background-color: #4F6F52;
+    color: #fff;
+}
+
+.table-container td {
+    font-size: 13px;
+    background-color: #ffffff;
+}
+.table-container a{
+    font-size: 1.50vh;
+    color: #0A703E;
+}
+
+.headlineheader{
+    color: darkblue;
+}
+
+/** End of Table Section **/
+
+/**add article **/
+.nwrtcl{
+    font-size: 4vh;
+    position: absolute;
+    height: 8vh;
+    width:18vh;
+    border-radius: 5vh;
+    border: 0;
+    background-color: #0A703E;
+    color: #ffffff;
+    overflow: hidden;
+    transition:  all 1s;
+    text-align: left;
+    padding-right: 2vh;
+    padding-left: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    transition: ease 1s;
+    top: 80%;
+    left: 80%;
+}
+.nwrtcl:focus{
+    height: 17vh;
+    width:32vh;
+    color: #0A703E;
+    background-color: #ffffff;
+    transition: ease 1s;
+}
+
+.article{
+    z-index: 1;
+    display: flex;
+    font-size: large;
+    position: absolute;
+    color: #ffffff;
+    background-color: #0A703E;
+    border-radius: 4vh;
+    width: max-content;
+    height: fit-content;
+    padding-right: 1vh;
+    padding-left: 1vh;
+    padding-top: 1vh;
+    left: 18vh;
+    bottom: 6vh
+}
+.video{
+    z-index: 1;
+    display: flex;
+    font-size: large;
+    position: absolute;
+    color: #ffffff;
+    background-color: #0A703E;
+    border-radius: 4vh;
+    width: max-content;
+    height: fit-content;
+    padding-right: 1vh;
+    padding-left: 1vh;
+    padding-top: 1vh;
+    bottom: 11vh;
+    left: 18vh;
+}
+.gallery{
+        z-index: 1;
+        display: flex;
+        font-size: large;
+        position: absolute;
+        color: #ffffff;
+        background-color: #0A703E;
+        border-radius: 4vh;
+        width: max-content;
+        height: fit-content;
+        padding-right: 1vh;
+        padding-left: 1vh;
+        padding-top: 1vh;
+        left: 18vh;
+}
+.video, .video, .article{
+    transition:ease-in-out 0.2s;
+}
+.video:hover, .article:hover, .gallery:hover{
+    transition:ease-in-out 0.2s;
+    background-color: #ffffff;
+    color: #0A703E;
+}
